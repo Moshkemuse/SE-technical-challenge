@@ -1,0 +1,1 @@
+grep -E '\b(4|5)[0-9]{2}\b' example.log   | awk '{print $7}'   | sort   | uniq -c   | sort -nr

@@ -1,0 +1,7 @@
+POST http://127.0.0.1:4000/allies/1f585fc9-4926-468c-a728-eb34d80e9ea1/credentials
+- params = allyId : 1f585fc9-4926-468c-a728-eb34d80e9ea1.
+- headers = Content-Type: application/json
+- body = {
+             "username": "aliado_addi",
+ 	     "password": "}sxh7_5}BdJ4K:Qf"
+	}

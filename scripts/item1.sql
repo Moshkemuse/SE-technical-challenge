@@ -1,0 +1,1 @@
+select t.value as tags, count(*) as stores_count from stores s, json_each_text(s.data->'tags') as t group by t.value;

@@ -1,0 +1,2 @@
+update stores set data = jsonb_set(data::jsonb, '{name}', '"Old-Wolf"') where id = '0d4f7a40-651d-44fb-8744-04d9b31ef844'; --updates name
+update stores set data = jsonb_set(data::jsonb, '{tags,tag1}', '"educacion"') where id = '0d4f7a40-651d-44fb-8744-04d9b31ef844'; -- updates tag
